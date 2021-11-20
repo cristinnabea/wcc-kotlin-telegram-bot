@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "nomeFilme": "Capitão América\\: O Primeiro Vingador",
+        "ano": "1943 \\- 1945",
+        "sinopse": "Steve Rogers é um jovem que participa de experiências visando a criação do supersoldado americano\\. Quando os oficiais militares conseguem transformá\\-lo em uma arma humana, eles percebem que não podem arriscar a vida do jovem nas batalhas de guerra\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\capitâo-amaerica.gif"
+    },
+    {
+        "id": 2,
+        "nomeFilme": "Capitã Marvel",
+        "ano": "1995",
+        "sinopse": "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra\\-se no meio de uma batalha entre seu povo e os Skrulls\\. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte\\-americana\\. Com a ajuda de Nick Fury, Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao conflito intergalático com os Skrulls\\",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Capitã Marvel.jpg"
+    },
+    {
+        "id": 3,
+        "nomeFilme": "Homem de Ferro",
+        "ano": "2010",
+        "sinopse": "Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora\\. Em vez disso, ele constrói uma armadura blindada e enfrenta seus sequestradores\\. Ao voltar para os EUA, Stark aprimora a armadura e a utiliza para combater o crime\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem de Ferro.jpg"
+    },
+    {
+        "id": 4,
+        "nomeFilme": "O Incrível Hulk",
+        "ano": "2011",
+        "sinopse": "O cientista Bruce Banner se esconde no Brasil enquanto busca desesperadamente a cura da mutação que o transforma em um monstro incontrolável\\. Só assim ele poderá novamente levar uma vida normal e ficar ao lado da mulher que ama\\. Porém, durante este processo, ele precisa lutar contra o Abominável, um novo inimigo que quer capturá\\-lo\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\O Incrivel Hulk.jpg"
+    },
+    {
+        "id": 5,
+        "nomeFilme": "Homem de Ferro 2",
+        "ano": "2011",
+        "sinopse": "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas\\. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas\\. Com a bela Pepper Potts e o amigo \"Rhodey\" Rhodes ao seu lado, Tony precisa forjar novas alianças e confrontar um inimigo poderoso\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem de Ferro 2.jpg"
+    },
+    {
+        "id": 6,
+        "nomeFilme": "Thor",
+        "ano": "2011",
+        "sinopse": "Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai\\. Porém, no dia de sua coroação, Thor reage com brutalidade quando os inimigos dos deuses entram no palácio violando o tratado\\. Como punição, Odin manda Thor para a Terra\\. Enquanto seu irmão Loki conspira em Asgard, Thor, agora sem seus poderes, enfrenta sua maior ameaça\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Thor.jpg"
+    },
+    {
+        "id": 7,
+        "nomeFilme": "Os Vingadores",
+        "ano": "2012",
+        "sinopse": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá\\-lo de dentro das instalações da S\\.H\\.I\\.E\\.L\\.D\\. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super\\-heróis que serão capazes de defender a Terra de ameaças sem precedentes\\. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Os Vingadores.jpg"
+    },
+    {
+        "id": 8,
+        "nomeFilme": "Homem de Ferro 3",
+        "ano": "2012",
+        "sinopse": "Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo\\: o fracasso\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem de Ferro 3.jpg"
+    },
+    {
+        "id": 9,
+        "nomeFilme": "Thor\\: O Mundo Sombrio",
+        "ano": "2013",
+        "sinopse": "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo\\. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Thor O Mundo Sombrio.jpg"
+    },
+    {
+        "id": 10,
+        "nomeFilme": "Capitão América\\: O Soldado Invernal",
+        "ano": "2014",
+        "sinopse": "Após os eventos catastróficos em Nova York com Os Vingadores, Steve Rogers, também conhecido como Capitão América, segue tentando se ajustar ao mundo moderno\\. Porém, quando um colega da agência S\\.H\\.I\\.E\\.L\\.D\\. é atacado, Steve se vê preso em uma rede de intrigas que ameaça colocar o mundo em risco\\. Em parceria com a Viúva Negra e Falcão, seu novo aliado, o Capitão América tem que enfrentar um misterioso e inesperado inimigo, o Soldado Invernal\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Capitão America O soldado Invernal.jpg"
+    },
+    {
+        "id": 11,
+        "nomeFilme": "Guardiões da Galáxia",
+        "ano": "2014",
+        "sinopse": "O aventureiro do espaço Peter Quill torna\\-se presa de caçadores de recompensas depois que rouba a esfera de um vilão traiçoeiro, Ronanz\\. Para escapar do perigo, ele faz uma aliança com um grupo de quatro extraterrestres\\. Quando Quill descobre que a esfera roubada possui um poder capaz de mudar os rumos do universo, ele e seu grupo deverão proteger o objeto para salvar o futuro da galáxia\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Guardioes da Galaxia.jpg"
+    },
+    {
+        "id": 12,
+        "nomeFilme": "Guardiões da Galáxia Vol\\. 2",
+        "ano": "2014",
+        "sinopse": "Os Guardiões da Galáxia lutam para manter sua nova família unida enquanto desvendam os mistérios sobre o verdadeiro pai de Peter Quill\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Guardioes da Galaxia vol 2.jpg"
+    },
+    {
+        "id": 13,
+        "nomeFilme": "Vingadores\\: Era de Ultron",
+        "ano": "2015",
+        "sinopse": "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial\\. O projeto acaba dando errado e gera o nascimento do Ultron\\. Com o destino da Terra em jogo, Capitão América, Homem de Ferro, Thor, Hulk, Viúva Negra e Gavião Arqueiro terão que se unir para mais uma vez salvar a raça humana da extinção\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Vingadores Era de Ultron.jpg"
+    },
+    {
+        "id": 14,
+        "nomeFilme": "Homem\\-Formiga",
+        "ano": "2015",
+        "sinopse": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos\\. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem Formiga.jpg"
+    },
+    {
+        "id": 15,
+        "nomeFilme": "Capitão América\\: Guerra Civil",
+        "ano": "2016",
+        "sinopse": "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade\\. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Capitão América Guerra Civil.jpg"
+    },
+    {
+        "id": 16,
+        "nomeFilme": "Homem\\-Aranha\\: De Volta ao Lar",
+        "ano": "2016",
+        "sinopse": "Depois de lutar ao lado dos Vingadores, chegou a hora do jovem Peter Parker voltar para casa em Nova York ao lado de sua tia May\\. Sob o olhar atento do mentor Tony Stark, Peter começa a abraçar sua nova identidade como Homem\\-Aranha e combate diariamente pequenos crimes nas redondezas\\. Ele acredita que encontrou a missão de sua vida quando o terrível vilão Abutre surge ameaçando a cidade\\. O problema é que a tarefa não será tão fácil como ele imaginava\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem Aranha De Volta ao Lar.jpg"
+    },
+    {
+        "id": 17,
+        "nomeFilme": "Viúva Negra",
+        "ano": "2016 \\- 2017",
+        "sinopse": "Ao nascer, a Viúva Negra, então conhecida como Natasha Romanova, é entregue à KGB, que a prepara para se tornar sua agente suprema\\. Porém, o seu próprio governo tenta matá\\-la quando a União Soviética se desfaz\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Viuva Negra.jpeg"
+    },
+    {
+        "id": 18,
+        "nomeFilme": "Doutor Estranho",
+        "ano": "2016 \\- 2017",
+        "sinopse": "Após sua carreira ser destruída, um brilhante, porém arrogante, cirurgião ganha uma nova chance em sua vida quando um feiticeiro o treina para se tornar o Mago Supremo\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Doutor Estranho.jpg"
+    },
+    {
+        "id": 19,
+        "nomeFilme": "Pantera Negra",
+        "ano": "2017",
+        "sinopse": "Conheça a história de T\\'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores\\. Entre as suas habilidades estão a velocidade, inteligência e os sentidos apurados\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Pantera Negra.png"
+    },
+    {
+        "id": 20,
+        "nomeFilme": "Homem\\-Formiga e a Vespa",
+        "ano": "2017",
+        "sinopse": "Scott Lang lida com as consequências de suas escolhas tanto como super\\-herói quanto como pai\\. Enquanto tenta reequilibrar sua vida com suas responsabilidades como o Homem\\-Formiga, ele é confrontado por Hope van Dyne e Dr\\. Hank Pym com uma nova missão urgente\\. Scott deve mais uma vez vestir o uniforme e aprender a lutar ao lado da Vespa, trabalhando em conjunto para descobrir segredos do passado\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem Formiga e a Vespa.jpg"
+    },
+    {
+        "id": 21,
+        "nomeFilme": "Thor\\: Ragnarok",
+        "ano": "2017",
+        "sinopse": "Após anos afastado, Thor retorna para casa e descobre que seu pai Odin, rei de Asgard, está desaparecido\\. Após encontrá\\-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte\\. Com o auxílio de Loki, ele enfrenta Hela, mas durante a batalha, Thor acaba preso em Sakaar, um planeta do outro lado do universo\\. Agora, ele precisa correr contra o tempo para voltar a Asgard e impedir o Ragnarok, a destruição de seu mundo\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Thor Ragnarok.jpg"
+    },
+    {
+        "id": 22,
+        "nomeFilme": "Vingadores\\: Guerra Infinita",
+        "ano": "2017",
+        "sinopse": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos\\. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá\\-las para infligir sua vontade maléfica sobre a realidade\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Vingadores Guerra Infinita.jpg"
+    },
+    {
+        "id": 23,
+        "nomeFilme": "Vingadores\\: Ultimato",
+        "ano": "2018 \\- 2023",
+        "sinopse": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos\\. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Vingadores Ultimato.jpg"
+    },
+    {
+        "id": 24,
+        "nomeFilme": "Homem\\-Aranha\\: Longe de Casa",
+        "ano": "2023",
+        "sinopse": "Peter Parker decide se unir aos seus melhores amigos para passar férias na Europa\\. Mas o plano de abandonar seus feitos heroicos por algumas semanas são mudados quando concorda em ajudar Nick Fury a solucionar os misteriosos ataques de criaturas elementais, que estão gerando uma destruição pelo continente\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Homem Aranha Longe de Casa.jpg"
+    },
+    {
+        "id": 25,
+        "nomeFilme": "Série\\: Wandavision",
+        "ano": "2023",
+        "sinopse": "Vivendo vidas suburbanas perfeitas, Wanda e Visão começam a suspeitar que nem tudo é o que parece\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\WandaVision.jpg"
+    },
+    {
+        "id": 26,
+        "nomeFilme": "Série\\: Falcão e o Soldado Invernal",
+        "ano": "2023",
+        "sinopse": "Falcão e o Soldado Invernal são obrigados a formar uma dupla incompatível e embarcarem em uma aventura global que deve testar tanto suas habilidades de sobrevivência quanto sua paciência\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Falcão e o Soldado Invernal.jpg"
+    },
+    {
+        "id": 27,
+        "nomeFilme": "Shang\\-Chi e a Lenda dos Dez Anéis",
+        "ano": "2024",
+        "sinopse": "Shang\\-Chi é o filho do líder de uma organização criminosa poderosa\\. O rapaz foi criado desde criança para ser um guerreiro, mas decidiu abandonar esse caminho e fugiu para viver uma vida pacífica\\. Porém, tudo isso muda quando ele é atacado por um grupo de assassinos e se vê forçado a enfrentar seu passado\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Shang-Chi e a Lenda dos Dez Anéis.jpeg"
+    },
+    {
+        "id": 28,
+        "nomeFilme": "Eternos",
+        "ano": "2024",
+        "sinopse": "Os Eternos são uma raça de seres imortais que viveram durante a antiguidade da Terra, moldando sua história e suas civilizações enquanto batalhavam os malignos Deviantes\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Eternos.png"
+    },
+    {
+        "id": 29,
+        "nomeFilme": "Série\\: Loki",
+        "ano": "Não definido",
+        "sinopse": "Depois de roubar o Tesseract durante os eventos de Vingadores\\: Ultimato, uma versão alternativa de Loki é trazida para a misteriosa Autoridade de Variância Temporal \\(AVT\\], uma organização burocrática que existe fora do tempo e do espaço, e monitora a linha do tempo\\. Eles dão a Loki uma escolha\\: ser apagado da existência por ser uma \"variante do tempo\" ou ajudar a consertar a linha do tempo e impedir uma ameaça maior\\. Loki acaba preso em seu próprio thriller policial, viajando no tempo e alterando a história da humanidade\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\Loki.jpg"
+    },
+    {
+        "id": 30,
+        "nomeFilme": "Série: What If\\.\\.\\.\\?",
+        "ano": "Não definido",
+        "sinopse": "Após a criação do multiverso no final da primeira temporada de Loki, What If \\.\\.\\.\\? explora as várias linhas do tempo alternativas do multiverso em que os principais momentos dos filmes do Universo Cinematográfico Marvel ocorrem de forma diferente\\.",
+        "imagem": "E:\\Bioca\\WCC\\wcc-kotlin-telegram-bot\\src\\main\\resources\\image\\What If.jpeg"
+    }
+]

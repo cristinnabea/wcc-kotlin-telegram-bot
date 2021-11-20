@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "nomeFilme": "Homem\\-Aranha\\: Sem Volta Para Casa",
+        "estreia": "16\\/12\\/2021"
+    },
+    {
+        "id": 2,
+        "nomeFilme": "Morbius",
+        "estreia": "27\\/01\\/22"
+    },
+    {
+        "id": 3,
+        "nomeFilme": "Doutor Estranho no Multiverso da Loucura",
+        "estreia": "25\\/03\\/2022"
+    },
+    {
+        "id": 4,
+        "nomeFilme": "Thor\\: Love and Thunder",
+        "estreia": "06\\/05\\/2022"
+    },
+    {
+        "id": 5,
+        "nomeFilme": "Pantera Negra\\: Wakanda Forever",
+        "estreia": "08\\/06\\/2022"  
+    },
+    {
+        "id": 6,
+        "nomeFilme": "Série\\: Ms\\. Marvel",
+        "estreia": "2\\° Semestre de 2022"
+    },
+    {
+        "id": 7,
+        "nomeFilme": "Série\\: Cavaleiro da Lua",
+        "estreia": "2022"
+    },
+    {
+        "id": 8,
+        "nomeFilme": "Série\\: Mulher\\-Hulk",
+        "estreia": "2022"
+    },
+    {
+        "id": 9,
+        "nomeFilme": "Homem\\-Aranha no Aranhaverso 2",
+        "estreia": "06\\/10\\/2022"
+    },
+    {
+        "id": 10,
+        "nomeFilme": "The Marvels",
+        "estreia": "11\\/11\\/2022"
+    },
+    {
+        "id": 11,
+        "nomeFilme": "Kraven, o Caçador",
+        "estreia": "12\\/01\\/2023"
+    },
+    {
+        "id": 12,
+        "nomeFilme": "Homem\\-Formiga e a Vespa\\: Quantumania",
+        "estreia": "17\\/02\\/2023"
+    },
+    {
+        "id": 13,
+        "nomeFilme": "Guardiões da Galáxia Vol\\. 3",
+        "estreia": "08\\/06\\/2022"
+    },
+    {
+        "id": 14,
+        "nomeFilme": "Blade",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 15,
+        "nomeFilme": "Quarteto Fantástico",
+        "estreia": "Sem data Definida"
+    },
+    
+    {
+        "id": 16,
+        "nomeFilme": "Agatha\\: House of Harkness",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 17,
+        "nomeFilme": "Echo",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 18,
+        "nomeFilme": "X\\-Men \\'97",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 19,
+        "nomeFilme": "Série\\: What If 2\\ª Temporada",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 20,
+        "nomeFilme": "Série\\: Invasão Secreta",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 21,
+        "nomeFilme": "Série\\: Coração de Ferro",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 22,
+        "nomeFilme": "Série\\: Guerra das Armaduras",
+        "estreia": "Sem data Definida"
+    },
+    {
+        "id": 23,
+        "nomeFilme": "Deadpool 3",
+        "estreia": "Sem data Definida"
+    }
+   
+    
+    
+]
