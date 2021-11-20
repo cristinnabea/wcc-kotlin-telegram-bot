@@ -5,22 +5,31 @@ import dao.FilmeDao
 import org.telegram.telegrambots.bots.TelegramLongPollingBot
 import org.telegram.telegrambots.meta.api.methods.send.SendAudio
 import org.telegram.telegrambots.meta.api.methods.send.SendDocument
+import org.telegram.telegrambots.meta.api.methods.send.SendMediaGroup
+import org.telegram.telegrambots.meta.api.methods.send.SendMediaGroup.MEDIA_FIELD
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageMedia.MEDIA_FIELD
 import org.telegram.telegrambots.meta.api.objects.InputFile
+import org.telegram.telegrambots.meta.api.objects.MessageEntity
 import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.meta.api.objects.media.InputMedia
+import org.telegram.telegrambots.meta.api.objects.media.InputMedia.MEDIA_FIELD
+import org.telegram.telegrambots.meta.api.objects.media.InputMediaDocument
 import org.telegram.telegrambots.meta.api.objects.media.InputMediaPhoto
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException
+import java.awt.Font.ITALIC
 import java.io.File
+import java.io.InputStream
+import java.io.InputStreamReader
+import javax.ws.rs.POST
 
 
-const val TOKEN_TELEGRAM = "2063903169:AAEoVfb5QJGw8GvC2HPnOAbxiAueaOt-j28"
+val TOKEN_TELEGRAM = System.getenv("TOKEN_TELEGRAM")
 
-//https://github.com/cristinnabea/wcc-kotlin-telegram-bot.git
-//commit feature/wcc-023B-brincando-com-o-bot  git remote get-url origin
+//git remote get-url origin
 class WCCBot : TelegramLongPollingBot() {
 
     override fun getBotUsername(): String {
@@ -51,18 +60,19 @@ class WCCBot : TelegramLongPollingBot() {
                     SendAudio().apply {
                         val file = File("src/main/resources/Marvel intro.mp3")
                         this.chatId = chatId
-                        this.title = "Marvel intro"
+                        this.title = "Marvel Abertura"
+                        this.caption = welcome(nameSender)
                         this.audio = InputFile().setMedia(file)
                         this.parseMode = "MarkdownV2"
                     }
                 )
 
                 "/info" -> execute(
-                    SendMessage().apply {
+                    SendDocument().apply {
                         this.chatId = chatId
-                        this.enableMarkdown(true )
-                        this.text = "teste"
-                        this.replyMarkup = teclado(ReplyKeyboardMarkup())
+                        this.caption = "Ignorei"
+                        this.document = InputFile().setMedia("https://c.tenor.com/IlVw6bsXQJYAAAAC/thumbs-up-hulk.gif")
+//                        this.replyMarkup = teclado(ReplyKeyboardMarkup())
                     }
                 )
                 "/start" -> execute(
@@ -70,8 +80,9 @@ class WCCBot : TelegramLongPollingBot() {
                         this.chatId = chatId
                         this.caption = welcome(nameSender)
                         this.document =
-                            InputFile().setMedia("https://c.tenor.com/R_Xer8Ukk-IAAAAC/hello-hi.gif")
+                            InputFile().setMedia("https://c.tenor.com/Y5BafazlT0sAAAAd/hello-are-you-still-there.gif")
                         this.parseMode = "MarkdownV2"
+                        this.replyMarkup = teclado(ReplyKeyboardMarkup())
                     }
 
                 )
@@ -80,7 +91,7 @@ class WCCBot : TelegramLongPollingBot() {
                     SendDocument().apply {
                         this.chatId = chatId
                         this.caption = listarFilmes()
-                        this.document = InputFile().setMedia("https://data.whicdn.com/images/257884696/original.gif")
+                        this.document = InputFile().setMedia("https://c.tenor.com/X7r0EeyEUwcAAAAC/avengers-infinity-war.gif")
                         this.parseMode = "MarkdownV2"
                     }
                 )
@@ -96,7 +107,6 @@ class WCCBot : TelegramLongPollingBot() {
 
                 )
 
-
                 else -> {
                     if (commandID.toIntOrNull() in 1..30) {
                         execute(
@@ -111,15 +121,14 @@ class WCCBot : TelegramLongPollingBot() {
                         execute(
                             SendDocument().apply {
                                 this.chatId = chatId
-                                this.caption = "Ignorei"
+                                this.caption =
+                                    "Todo mundo falha em ser quem deveriam ser, Thor\\. O valor de uma pessoa, de um herói… é o quanto eles dão certo em ser quem são\\. \\- *Frigga* \n\n Até eu falho \uD83D\uDE2D "
                                 this.document =
-                                    InputFile().setMedia("https://c.tenor.com/IlVw6bsXQJYAAAAC/thumbs-up-hulk.gif")
+                                    InputFile().setMedia("https://c.tenor.com/qfogNHCcvmcAAAAC/sad-thor.gif")
                                 this.parseMode = "MarkdownV2"
                             }
                         )
                     }
-
-
                 }
             }
         } catch (e: TelegramApiException) {
@@ -135,25 +144,16 @@ class WCCBot : TelegramLongPollingBot() {
         }
         var teclado: List<KeyboardRow> = ArrayList()
         val keyboardFirstRow = KeyboardRow()
-        keyboardFirstRow.add("linha 1")
-        keyboardFirstRow.add("linha 1 / 1")
+        keyboardFirstRow.add("/start")
+        keyboardFirstRow.add("/filmes")
         val keyboardSecondRow = KeyboardRow()
-        keyboardSecondRow.add("linha 2")
-        keyboardSecondRow.add("linha 2 / 2")
+        keyboardSecondRow.add("/musica")
+        keyboardSecondRow.add("/proximos")
         (teclado as ArrayList).add(keyboardFirstRow)
         teclado.add(keyboardSecondRow)
         replyKeyboardMarkup.keyboard = teclado
 
         return replyKeyboardMarkup
-    }
-
-
-    private fun enviarArquivos(): MutableList<InputMedia> {
-        return mutableListOf(
-            InputMediaPhoto("https://c.tenor.com/IlVw6bsXQJYAAAAC/thumbs-up-hulk.gif"),
-            InputMediaPhoto("https://c.tenor.com/IlVw6bsXQJYAAAAC/thumbs-up-hulk.gif"),
-            InputMediaPhoto("https://c.tenor.com/IlVw6bsXQJYAAAAC/thumbs-up-hulk.gif")
-        )
     }
 
 
@@ -183,6 +183,7 @@ class WCCBot : TelegramLongPollingBot() {
     }
 
     private fun listarFilmes() = """
+
         \/1 \- *Capitão América\: O Primeiro Vingador* \(1943\-1945\)
         \/2 \- *Capitã Marvel* \(1995\)
         \/3 \- *Homem de Ferro* \(2010\)
@@ -215,26 +216,21 @@ class WCCBot : TelegramLongPollingBot() {
         \/30 \- *What If\.\.\.\?* \(Não definido\)
     """.trimIndent()
 
-
-//    private fun listarFilmes(filmesDao: FilmeDao): String {
-//        return "✨✨ *Ordem Cronologica* ✨✨" + filmesDao.listFilme.map { "\\/${it.id} \\- *${it.nomeFilme}* \\(${it.ano}\\)" }.joinToString( separator = "\n" )
-//
-//
-//    }
-
     private fun welcome(nameSender: String?) = EmojiParser.parseToUnicode(
-        """
-        *Oláaa, $nameSender tudo beeeem\?* :sunglasses:
-       
-        \/start \- começar o projeto
+        """ 
+        Oi, seja bem vindo\(a\) $nameSender
+        
+        \/start \- inicio
         
         \/filmes \- mostrar ordem cronologica
         
-        \/musica \- tocar intro
-        
         \/proximos \- mostrar lista dos próximos lançamentos
         
+        \/musica \- tocar abertura
+
         \/info \- para saber mais sobre o projeto
+        
+        🕷️ *Com grandes poderes, vêm grandes responsabilidades* 🕷️
         """.trimIndent()
     )
 
